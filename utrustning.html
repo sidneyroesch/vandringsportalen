@@ -1,0 +1,286 @@
+<!-- Reflektion: På den här sidan ville jag samla den viktigaste utrustningen för olika typer av vandringar. Jag delade därför upp innehållet i flera kategorier för att göra det enklare att hitta information.
+Jag valde att använda kort med bilder och listor istället för en vanlig tabell eftersom jag tycker att det blir mer lättläst och roligare att titta på.
+Jag lade också till en enkel checklista med kryssrutor så att användaren kan bocka av sin packning inför en vandring. Det gör sidan lite mer interaktiv.
+Efter validering med W3C Markup-valideringstjänst har inga fel hittats.-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sidney Roesch">
+  <meta name="description" content="Vandringsportalen - Din guide till vandring i Sverige">
+  <meta name="keywords" content="Vandringsportalen, vandring Sverige, vandringstips, vandringsutrustning, vandringsstigar, friluftsliv, fjällvandring Sverige">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Vandringsportalen</title>
+</head>
+<body>
+  <header>
+    <h1>Vandringsportalen</h1>
+
+    <button class="hamburger" id="hamburger" aria-label="Öppna meny">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <button id="theme-toggle" aria-label="Byt till mörktema">Mörkt tema</button>
+
+    <nav class="nav" id="nav">
+      <a href="index.html">Hem</a>
+      <a href="utrustning.html">Utrustning</a>
+      <a href="vandringsplatser.html">Vandringsplatser</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Om utrustning</h2>
+      <p>Rätt utrustning gör vandringen både säkrare och roligare. Vad som behövs beror på årstid, väder och hur lång turen är. Här finns en guide över den viktigaste utrustningen för olika typer av vandringar.</p>
+    </section> 
+    
+    <section>
+      <h2>Grundutrustning</h2> 
+      <p>All utrustning är inte nödvändig på varje vandring. Klicka på korten nedan för att läsa mer om varje kategori och använd checklistan längst ner för att planera nästa tur.</p>
+      <div class="utrustning-row">
+        <article class="utrustning-item">
+          <img src="images/glenn-carstens-peters-s8TQiOfGlz0-unsplash.jpg" alt="bruna läder vandringsskängor. Photo by Glenn Carstens-Peters on Unsplash"> 
+          <h3>Kläder</h3>
+          <ul>
+            <li>Vandringskängor</li>
+            <li>Ullstrumpor</li>
+            <li>Underställ</li>
+            <li>Fleece</li>
+            <li>Skaljacka</li>
+            <li>Skalbyxor</li>
+            <li>Mössa</li>
+            <li>Buff</li>
+            <li>Handskar</li>
+            <li>Regnkläder</li>
+          </ul>
+        </article>
+        <article class="utrustning-item">
+          <img src="images/niklas-jonasson-OwP8CrfUklE-unsplash.jpg" alt="Svart ryggsäck av märket Fjällräven med snöskor fästa på ryggsäcken och ryggsäcken står på snömark. Photo by Niklas Jonasson on Unsplash">
+          <h3>Ryggsäck</h3>
+          <ul>
+          <li>Ryggsäck 25–35 L (dagstur)</li>
+          <li>Ryggsäck 50–70 L (flera dagar)</li>
+          <li>Regnskydd</li>
+          <li>Packpåsar</li>
+          <li>Sittunderlag</li>
+          </ul>
+        </article>
+        <article class="utrustning-item">
+          <img src="images/will-truettner-_vVzm7TouUM-unsplash.jpg" alt="Röd stormkök med en svart camping gryta med röd handtag. Stormköket står på rödbrun mark vid skymningen och en människa står i bakgrunden med svarta byxor. Photo by Will Truettner on Unsplash">
+          <h3>Mat & vatten</h3>
+          <ul>
+            <li>Vattenflaska</li>
+            <li>Vattenfilter</li>
+            <li>Stormkök</li>
+            <li>Bränsle</li>
+            <li>Tändstål</li>
+            <li>Kåsa</li>
+            <li>Bestick</li>
+            <li>Snacks</li>
+            <li>Frystorkad mat</li>
+          </ul>
+        </article>
+        <article class="utrustning-item">
+          <img src="images/annie-spratt-YqgrTU8xfzM-unsplash.jpg" alt="En människa som håller en kartbok med en kompass på boken. Photo by Annie Spratt on Unsplash">
+          <h3>Navigation</h3>
+          <ul>
+            <li>Karta</li>
+            <li>Kompass</li>
+            <li>GPS</li>
+            <li>Mobil</li>
+            <li>Powerbank</li>
+            <li>Extra batterier</li>
+          </ul>
+        </article>
+        <article class="utrustning-item">
+          <img src="images/mathias-reding-zUYLPUmKfsY-unsplash.jpg" alt="En människa med svart tröja, gröna byxor och en brun och grön ryggsäck var en förstahjälpen väska är instoppad i sidfickan och sticker ut . Photo by Mathias Reding on Unsplash">
+          <h3>Säkerhet</h3>
+          <ul>
+            <li>Första hjälpen-kit</li>
+            <li>Visselpipa</li>
+            <li>Ficklampa</li>
+            <li>Pannlampa</li>
+            <li>Kniv</li>
+            <li>Nödfilt</li>
+            <li>Solkräm</li>
+            <li>Myggmedel</li>
+          </ul>
+        </article>
+      </div> 
+    </section> 
+    
+    <section>
+      <h2>Packlista efter årstid</h2> 
+      <div class="utrustning-row">
+        <article class="utrustning-item">
+          <img src="images/vladlena-sigal-QQRWjepb_6g-unsplash.jpg" alt="Två människor med vandringskläder, ryggsäk och stavar vandrar i fjällandskap med stora gröna berg i bakgrunden och vatten i föregrund. Photo by Vladlena Sigal on Unsplash">
+          <h3>Vår</h3>
+          <ul>
+            <li>Skaljacka</li>
+            <li>Mössa</li>
+            <li>Vantar</li>
+            <li>Vattentäta skor</li>
+            <li>Gamascher</li>
+          </ul>
+        </article>
+        <article class="utrustning-item">
+          <img src="images/dmytro-matsiuk-z-BXGZbLdS0-unsplash.jpg" alt="Grupp av människor med vandringsutrustning som vandrar på en stig i fjällandskap med berg, gran och rosa blommor. Photo by Dmytro Matsiuk on Unsplash">
+          <h3>Sommar</h3>
+          <ul>
+            <li>Solglasögon</li>
+            <li>Solkräm SPF50</li>
+            <li>Keps</li>
+            <li>Shorts</li>
+            <li>Myggmedel</li>
+            <li>Extra vatten</li>
+          </ul>
+        </article>
+        <article class="utrustning-item">
+          <img src="images/holly-mandarich-Y90GKsTKxBM-unsplash.jpg" alt="Två människor, en med gul ryggsäck, en med röd ryggsäck och en brunhårig hund vandrar på en höstfärgad fjällstig. Photo by Holly Mandarich on Unsplash">
+          <h3>Höst</h3>
+          <ul>
+            <li>Fleece</li>
+            <li>Regnjacka</li>
+            <li>Varm mössa</li>
+            <li>Extra underställ</li>
+            <li>Handskar</li>
+          </ul>
+        </article>
+        <article class="utrustning-item">
+          <img src="images/fabrizio-conti-EJQlF0GIvq8-unsplash.jpg" alt="Två människor med vandringsstavar vandrar upp ett snötäckt berg. Photo by Fabrizio Conti on Unsplash">
+          <h3>Vinter</h3>
+          <ul>
+            <li>Dunjacka</li>
+            <li>Ullunderställ</li>
+            <li>Isdubbar</li>
+            <li>Termos</li>
+            <li>Snöspade</li>
+            <li>Broddar</li>
+            <li>Extra batterier</li>
+          </ul>
+        </article>
+      </div> 
+    </section> 
+
+    <section>
+      <h2>Anpassa utrustning efter turen</h2> 
+      <div class="utrustning-row">
+        <article class="utrustning-item">
+          <img src="images/hilde-demeester-s5p1jPbgkbU-unsplash.jpg" alt="Två människor vandrar på en grönyta med havet i bakgrunden. Photo by Hilde Demeester on Unsplash">
+          <h3>Dagstur</h3>
+          <ul>
+            <li>20–30 liters ryggsäck</li>
+            <li>Vatten</li>
+            <li>Fika</li>
+            <li>Regnjacka</li>
+          </ul>
+        </article>
+        <article class="utrustning-item">
+          <img src="images/mats-hagwall-f_1bvb0I8G0-unsplash.jpg" alt="En människa med röd tröja, bruna byxor, vandringsstavar och stor ryggsäck står i fjällandskap och tittar ut mot bergen i bakgrunden. Photo by Mats Hagwall on Unsplash">
+          <h3>Helgtur</h3>
+          <ul>
+            <li>Stormkök</li>
+            <li>Tält</li>
+            <li>Sovsäck</li>
+            <li>Extra kläder</li>
+          </ul>
+        </article>
+        <article class="utrustning-item">
+          <img src="images/noah-holm-RMh1Df5kEl0-unsplash.jpg" alt="Grön tält och en människa i rödgul fjällandskap med berg i bakgrunden. Photo by Noah Holm on Unsplash">
+          <h3>Fjällvandring</h3>
+          <ul>
+            <li>GPS</li>
+            <li>Karta</li>
+            <li>Kompass</li>
+            <li>Nödsändare</li>
+          </ul>
+        </article>
+        <article class="utrustning-item">
+          <img src="images/dmitrii-shirnin-4oYN5rIf0Us-unsplash.jpg" alt="En människa vinterklädd med snöskor, stor ryggsäck och ihoprullad liggunderlag vantrar på vinter genom snö i en björkskog. Photo by Dmitrii Shirnin on Unsplash">
+          <h3>Vintertur</h3>
+          <ul>
+            <li>Broddar</li>
+            <li>Termos</li>
+            <li>Dunjacka</li>
+            <li>Pannlampa</li>
+          </ul>
+        </article>
+      </div> 
+    </section> 
+
+    <section class="checklist">
+      <h2>Packlista inför en dagstur</h2>
+      <label>
+        <input type="checkbox">
+        <span>Vandringskängor</span>
+      </label>
+      <label>
+        <input type="checkbox">
+        <span>Ryggsäck</span>
+      </label>
+      <label>
+        <input type="checkbox">
+        <span>Vatten</span>
+      </label>
+      <label>
+        <input type="checkbox">
+        <span>Snacks</span>
+      </label>
+      <label>
+        <input type="checkbox">
+        <span>Första hjälpen</span>
+      </label>
+      <label>
+        <input type="checkbox">
+        <span>Regnjacka</span>
+      </label>
+      <label>
+        <input type="checkbox">
+        <span>Mobil</span>
+      </label>
+      <label>
+        <input type="checkbox">
+        <span>Powerbank</span>
+      </label>
+      <label>
+        <input type="checkbox">
+        <span>Karta</span>
+      </label>
+      <label>
+        <input type="checkbox">
+        <span>Kompass</span>
+      </label>
+      <label>
+        <input type="checkbox">
+        <span>Solkräm</span>
+      </label>
+      <label>
+        <input type="checkbox">
+        <span>Keps</span>
+      </label>
+      <p>För längre turer kan ytterligare utrustning som tält, sovsäck, stormkök och extra ombyte behövas.</p>
+    </section>
+  </main>
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Vandringsportalen</p>
+    <div class="footer-links">
+      <a href="index.html">Hem</a>
+      <a href="utrustning.html">Utrustning</a>
+      <a href="vandringsplatser.html">Vandringsplatser</a>
+    </div>
+    <div class="footer-small">
+      <a href="https://www.facebook.com" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com" target="_blank">Instagram</a>
+      <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+      <a href="mailto:info@vandringsportalen.se">Epost</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

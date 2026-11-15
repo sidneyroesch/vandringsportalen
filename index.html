@@ -1,0 +1,65 @@
+<!-- Startsidan -->
+<!-- Reflektion: Jag valde att göra en enkel startsida med en kort introduktion till webbplatsen. Jag ville att användaren direkt skulle förstå vad sidan handlar om och enkelt kunna gå vidare till de andra sidorna.
+Jag använde en hero-sektion med en stor bakgrundsbild för att skapa en lugn känsla som passar temat vandring. Jag har även lagt till en knapp som leder vidare till sidan med vandringsplatser.
+Jag har använt semantiska element som header, nav, main, section och footer för att göra HTML-koden tydligare och mer lättläst.
+Efter validering med W3C Markup-valideringstjänst har inga fel hittats.-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sidney Roesch">
+  <meta name="description" content="Vandringsportalen - Din guide till vandring i Sverige">
+  <meta name="keywords" content="Vandringsportalen, vandring Sverige, vandringstips, vandringsutrustning, vandringsstigar, friluftsliv, fjällvandring Sverige">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Vandringsportalen</title>
+</head>
+<body>
+  <header>
+    <h1>Vandringsportalen</h1>
+
+    <button class="hamburger" id="hamburger" aria-label="Öppna meny">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <button id="theme-toggle" aria-label="Byt till mörktema">Mörkt tema</button>
+
+    <nav class="nav" id="nav">
+      <a href="index.html">Hem</a>
+      <a href="utrustning.html">Utrustning</a>
+      <a href="vandringsplatser.html">Vandringsplatser</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Din guide till vandring i Sverige</h2>
+        <p>Välkommen till Vandringsportalen – en guide för alla som vill upptäcka vandring i Sverige. Här finns information om utrustning, tips för att komma igång och inspiration till några av landets mest uppskattade vandringsleder. Oavsett om målet är en kort dagsvandring eller ett längre äventyr i fjällen kan rätt kunskap och förberedelser göra upplevelsen både säkrare och mer givande. Naturen erbjuder något för alla – från lugna skogsstigar till storslagna fjällandskap.</p>
+        <a href="vandringsplatser.html" class="btn">Utforska vandringsplatser</a>
+      </div>
+    </section>
+  </main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Vandringsportalen</p>
+    <div class="footer-links">
+        <a href="index.html">Hem</a>
+        <a href="utrustning.html">Utrustning</a>
+        <a href="vandringsplatser.html">Vandringsplatser</a>
+    </div>
+    <div class="footer-small">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+        <a href="mailto:info@vandringsportalen.se">Epost</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

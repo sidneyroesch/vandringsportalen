@@ -1,0 +1,317 @@
+<!-- Reflektion: Jag ville skapa en sida som inspirerar till vandring. Därför använde jag många bilder och delade upp innehållet i vandringsleder, nationalparker och specifika vandringsmål.
+Varje kort innehåller en kort beskrivning och en länk till en extern webbplats där användaren kan få mer detaljerad information. Jag valde detta för att hålla sidan enkel samtidigt som den leder vidare till mer information.
+Jag använde samma design som på de andra sidorna för att webbplatsen skulle kännas enhetlig.
+Efter validering med W3C Markup-valideringstjänst har inga fel hittats.-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sidney Roesch">
+  <meta name="description" content="Vandringsplatser i Sverige">
+  <meta name="keywords" content="Vandringsplatser, vandring i Sverige, vandringstips, vandringsstigar, friluftsliv, fjällvandring Sverige">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Vandringsplatser</title>
+</head>
+<body>
+  <header>
+    <h1>Vandringsplatser</h1>
+
+    <button class="hamburger" id="hamburger" aria-label="Öppna meny">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <button id="theme-toggle" aria-label="Byt till mörktema">Mörkt tema</button>
+
+    <nav class="nav" id="nav">
+      <a href="index.html">Hem</a>
+      <a href="utrustning.html">Utrustning</a>
+      <a href="vandringsplatser.html">Vandringsplatser</a>
+    </nav>
+  </header>
+    <main>
+      <section>
+        <h2>Vandringsleder</h2>
+        <div class="grid-row">
+            <a class="grid-item" href="https://www.svenskaturistforeningen.se/guider-tips/leder/kungsleden/" target="_blank">
+            <img src="images/anders-noren-I3DiuTjhNvA-unsplash.jpg" alt="Fjällandskap längs Kungsleden Photo by Anders Norén on Unsplash">
+            <h3>Kungsleden</h3>
+            <p>Ca 450 km</p>
+            <p>Sveriges mest ikoniska vandringsled genom Lapplands fjäll med spektakulära vyer och STF-stugor längs vägen.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.swedishtouristassociation.com/trails/abisko-nikkaluokta/" target="_blank">
+            <img src="images/elle-leontiev-a5uGbV4XbdE-unsplash.jpg" alt="Fjällandskap längs Abisko–Nikkaluokta Photo by Elle Leontiev on Unsplash">
+            <h3>Abisko–Nikkaluokta</h3>
+            <p>Ca 107 km</p>
+            <p>En klassisk fjällvandring mellan Abisko och Nikkaluokta som passerar Kebnekaisemassivet.</p>
+            </a>
+
+
+            <a class="grid-item" href="https://www.nordkalottruta.no/en" target="_blank">
+            <img src="images/2014-08-02_Nordkalottleden,_Sweden_6441.jpg" alt="Fjällandskap längs Nordkalottleden Photo by Jari Arkko on Wikimedia Commons">
+            <h3>Nordkalottleden</h3>
+            <p>Ca 800 km</p>
+            <p>En internationell led genom Sverige, Norge och Finland med vidsträckta fjäll och orörd natur.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.hogakusten.com/sv/hogakustenleden" target="_blank">
+            <img src="images/images.jpeg" alt="Människa med stor ryggsäck som vandrar på en höjd med utsikt över land och havet">
+            <h3>Höga Kustenleden</h3>
+            <p>Ca 130 km</p>
+            <p>Kustnära vandring med dramatiska klippor, skogar och utsikt över världsarvet Höga Kusten.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.svenskaturistforeningen.se/guider-tips/leder/jamtlandstriangeln/" target="_blank">
+            <img src="images/images1.jpeg" alt="Fjällandskap, bäck och stenar på västra delen av Jämtlandstriangeln">
+            <h3>Jämtlandstriangeln</h3>
+            <p>Ca 47 km</p>
+            <p>En lättvandrad fjällklassiker som passar perfekt för en tredagarstur.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.svenskaturistforeningen.se/guider-tips/fjall/kebnekaise/" target="_blank">
+            <img src="images/photo-1505312917212-9db5bde78aff.avif" alt="Storslagen utsikt över Kebnekaise berg och älven mellan bergen">
+            <h3>Kebnekaise via Vistasdalen</h3>
+            <p>Ca 55 km tur och retur</p>
+            <p>En lugnare väg mot Kebnekaise genom den natursköna Vistasdalen.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.skaneleden.se" target="_blank">
+            <img src="images/images2.jpeg" alt="Människa med röd tröja som vandrar på en stig i Österlens kulara landskap och havet i bakgrunden till höger">
+            <h3>Skåneleden</h3>
+            <p>Över 1 600 km</p>
+            <p>Ett omfattande ledsystem genom skogar, stränder och böljande landskap i södra Sverige.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sormlandsleden.se" target="_blank">
+            <img src="images/images3.jpeg" alt="Människa som står på en sten på höjden i en skog och tittar ut över en sjö som leder ut med skog som följer sjön på båda sidor">
+            <h3>Sörmlandsleden</h3>
+            <p>Över 1 000 km</p>
+            <p>Många etapper genom sjöar, skogar och kulturmiljöer nära Stockholm.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.upplandsleden.se" target="_blank">
+            <img src="images/images4.jpeg" alt="Träbro över vatten och skog i bakgrunden">
+            <h3>Upplandsleden</h3>
+            <p>Ca 450 km</p>
+            <p>Naturnära leder genom Uppland med många sjöar och rastplatser.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.vastsverige.com/bohusleden/" target="_blank">
+            <img src="images/images5.jpeg" alt="Två människor med ryggsäck som vandrar över en träbro över vatten i en skog och med en pörlande vattenfall i bakgrunden">
+            <h3>Bohusleden</h3>
+            <p>Ca 370 km</p>
+            <p>Vandring genom västsvenska skogar, sjöar och kustnära landskap.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.bergslagsleden.se" target="_blank">
+            <img src="images/images6.jpeg" alt="Skogslandskap med en liten stuga i mitten av bilden och en domeformad blå tält vid sjökanten">
+            <h3>Bergslagsleden</h3>
+            <p>Ca 280 km</p>
+            <p>Lugn långled genom djupa skogar och historiska bergslagsbygder.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.ostgotaleden.se" target="_blank">
+            <img src="images/images7.jpeg" alt="blågrön hav på höger sida av bilden och en skog på vänster sida av bilden">
+            <h3>Östgötaleden</h3>
+            <p>Över 1 500 km</p>
+            <p>Sveriges längsta ledsystem med kust, skogar och kulturmiljöer.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.roslagsleden.se" target="_blank">
+            <img src="images/images8.jpeg" alt="Vandringsled som går genom en skog">
+            <h3>Roslagsleden</h3>
+            <p>Ca 190 km</p>
+            <p>En lättillgänglig led genom Roslagens skogar och sjöar.</p>
+            </a>
+        </div>
+      </section>
+    
+      <section>
+        <h2>Nationalparker & naturområden</h2>
+        <div class="grid-row">
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/abisko-nationalpark/" target="_blank">
+            <img src="images/abisko.jpeg" alt="Fjällandskap i Abisko Nationalpark Photo by Jan-Erik Nilsson">
+            <h3>Abisko Nationalpark</h3>
+            <p>Norrsken, midnattssol och fantastiska fjällvyer.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/sarek-nationalpark/" target="_blank">
+            <img src="images/Sarek.jpeg" alt="Fjällandskap med vitklädda berg och små gula blomlor i föregrund i Sarek Nationalpark Photo by Håkan Hjort/Johnér">
+            <h3>Sarek Nationalpark</h3>
+            <p>Europas kanske mest orörda vildmark utan markerade leder.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/stora-sjofallet-nationalpark/" target="_blank">
+            <img src="images/Stora-sjofallet.jpeg" alt="Vattenfall i Stora Sjöfallet Nationalpark Photo by Stora Sjöfallet Mountain Lodge">
+            <h3>Stora Sjöfallet Nationalpark</h3>
+            <p>Mäktiga fjäll, vattenfall och utsikter över Akkamassivet.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/padjelanta-nationalpark/" target="_blank">
+            <img src="images/Padjelanta.jpeg" alt="En samisk Kyrkkåta vid en sjö i Padjelanta nationalpark fjällandskap Photo by Mikael Svensson/Johnér">
+            <h3>Padjelanta Nationalpark</h3>
+            <p>Vidsträckta fjällhedar, stora sjöar och samisk kultur.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/muddus-muttos-nationalpark/" target="_blank">
+            <img src="images/Muddus.jpeg" alt="Utsikt från berget Oarjep Stubbá i Muddus Nationalpark Photo by Tor Lundberg/Naturfotograferna">
+            <h3>Muddus Nationalpark</h3>
+            <p>Gammelskog, djupa raviner och ett rikt djurliv.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/fulufjallet-nationalpark/" target="_blank">
+            <img src="images/fulufjallet-vattenfall-1920x1080.avif" alt="Fjällandskap i Fulufjället Nationalpark Photo by Naturvårdsverket">
+            <h3>Fulufjället Nationalpark</h3>
+            <p>Njupeskär – Sveriges högsta vattenfall – och den uråldriga granen Old Tjikko.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/tyresta-nationalpark/" target="_blank">
+            <img src="images/Tyresta-nationalpark.jpeg" alt="Urskog i Tyresta Nationalpark Photo by Nicklas Wijkmark">
+            <h3>Tyresta Nationalpark</h3>
+            <p>En av Sveriges största urskogar nära Stockholm.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/store-mosse-nationalpark/" target="_blank">
+            <img src="images/Store-mosse-nationalpark.jpeg" alt="Vandringsstig i grön våtmark i Store Mosse Nationalpark Photo by Henrik Kalsson/TT">
+            <h3>Store Mosse Nationalpark</h3>
+            <p>Sveriges största myrområde söder om Lappland med spänger genom våtmarkerna.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/upptack-nationalparkerna/norra-kvills-nationalpark" target="_blank">
+            <img src="images/Norra-kvill-nationalpark.jpeg" alt="Urskog i Norra Kvill Nationalpark Photo by Martin Borg">
+            <h3>Norra Kvill Nationalpark</h3>
+            <p>Trollskog med flera hundra år gamla tallar och stora flyttblock.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/asnens-nationalpark/" target="_blank">
+            <img src="images/Asnen-nationalpark.jpeg" alt="En människa i röd tröja, blåa byxor som vandrar mella två jättestora sten i Åsnen Nationalpark Photo by Gunilla Lindblad/Länsstyrelsen Kronoberg">
+            <h3>Åsnen Nationalpark</h3>
+            <p>Sjölandskap med öar, rikt fågelliv och fina möjligheter till paddling och cykling.</p>
+            </a>
+        </div>
+      </section>
+
+      <section>
+        <h2>Specifika vandringsmål</h2>
+        <div class="grid-row">
+            <a class="grid-item" href="https://www.swedishlapland.com/stories/trollsjon-rissajaure/" target="_blank">
+            <img src="images/Trollsjon-karkevagge.jpeg" alt="Klar fjällsjö omgiven av branta bergssidor med inslag av snö och grönska Photo by Roel Wijtmans">
+            <h3>Trollsjön (Kärkevagge)</h3>
+            <p>Sveriges klaraste fjällsjö omgiven av dramatiska berg och stenformationer.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.swedishlapland.com/stories/lapporten/" target="_blank">
+            <img src="images/Lapporten.jpeg" alt="Lapporten, en U-formad dalgång med två höga bergstoppar i bakgrunden Photo by Swedish Lapplaender">
+            <h3>Lapporten</h3>
+            <p>Den ikoniska U-formade dalgången och en av Lapplands mest fotograferade vyer.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.svenskaturistforeningen.se/guider-tips/fjall/kebnekaise/" target="_blank">
+            <img src="images/Kebnekaise.jpeg" alt="Två människor som vandrar på snöklädda toppar av Kebnekaise, Sveriges högsta berg Photo by Svenskaturistforeningen">
+            <h3>Kebnekaise</h3>
+            <p>Sveriges högsta berg med flera leder till toppen och fantastiska fjällvyer.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/sarek-nationalpark/" target="_blank">
+            <img src="images/Sarek-nationalpark.jpeg" alt="Sarek Nationalpark, ett vildmarksområde med höga berg, djupa dalar och glaciärer Photo by Mikael Svensson/Johnér">
+            <h3>Sarek</h3>
+            <p>En av Europas sista stora vildmarker med glaciärer, dalar och höga toppar.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/sonfjallets-nationalpark/" target="_blank">
+            <img src="images/Sonfjallet.jpeg" alt="Tjärn omgiven av vegetation i höstfärger med Sonfjället i bakgrunden i Sonfjällets nationalpark. Photo by Andreas Lindahl/Naturvårdsverket">
+            <h3>Sonfjället</h3>
+            <p>Nationalpark känd för sin orörda natur och goda möjligheter att se björn.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.svenskaturistforeningen.se/guider-tips/fjall/helags/" target="_blank">
+            <img src="images/Helags.jpeg" alt="Helagsmassivet och glaciär i fjälllandskap Photo by Svenskaturistforeningen">
+            <h3>Helags</h3>
+            <p>Hem till Sveriges sydligaste glaciär och populära vandringar över kalfjället.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.hovshallar.com" target="_blank">
+            <img src="images/Hovs-Hallar.jpeg" alt="Hovs Hallar, ett naturreservat på Bjärehalvön, med dramatiska klippor och havsutsikt Photo by Wikipedia">
+            <h3>Hovs Hallar</h3>
+            <p>Dramatiska klippformationer vid havet med spektakulära utsikter över Kattegatt.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/stenshuvuds-nationalpark/" target="_blank">
+            <img src="images/Stenshuvud.jpeg" alt="Strand vid Stenshuvud nationalpark, solen syns vid horisonten bakom berget. Photo by Länsstyrelsen Skåne">
+            <h3>Stenshuvud</h3>
+            <p>Nationalpark där strand, lövskog och utsiktsberg möts på liten yta.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.vastsverige.com/sotenas/produkter/hallo/" target="_blank">
+            <img src="images/Hallo.webp" alt="Marmorbassängen på Hållö i Smögen Photo by Svenskadestinationer">
+            <h3>Hållö</h3>
+            <p>Karga granitklippor, fyr och kristallklart hav utanför Smögen.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.alesstenar.se" target="_blank">
+            <img src="images/Ales-stenar.jpeg" alt="Ales stenar, en fornlämning i Skåne, med 59 stora stenblock arrangerade i en skeppssättning Photo by Jorchr/Wikipedia">
+            <h3>Ales stenar</h3>
+            <p>Historisk skeppssättning med fantastisk utsikt över Östersjön.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.kullabergsnaturreservat.se" target="_blank">
+            <img src="images/Kullaberg.jpeg" alt="Dramatiska klippor i havet i Kullaberg, ett naturreservat på Bjärehalvön. Photo by Apelöga/Visit Skåne">
+            <h3>Kullaberg</h3>
+            <p>Branta klippor, grottor och havsvyer på Skånes nordvästra spets.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/hamra-nationalpark/" target="_blank">
+            <img src="images/Hamra.jpeg" alt="Solnedgång över en tallskog med grön vegetation, några personer och en hund rör sig genom skogen i Hamra nationalpark. Photo by Anna Kjellander">
+            <h3>Hamra</h3>
+            <p>Liten nationalpark med gammelskog, myrar och stillsam natur.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.glaskogen.se" target="_blank">
+            <img src="images/Glaskogen.jpeg" alt="Två människor vandrar på en vandringsstig byggd på stenar på en sjö omrigad av Glaskogen, ett naturreservat i Värmland. Photo by Länsstyrelsen Värmland">
+            <h3>Glaskogen</h3>
+            <p>Stort naturreservat med sjöar, skogar och många vandringsleder.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.sverigesnationalparker.se/park/skuleskogens-nationalpark/" target="_blank">
+            <img src="images/Skuleskogen.jpeg" alt="Skuleskogen, ett nationalpark i Ångermanland, med skog och klippor Photo by Skuleskogen Nationalpark">
+            <h3>Skuleskogen</h3>
+            <p>Känd för Slåttdalsskrevan och Höga Kustens dramatiska landskap.</p>
+            </a>
+
+            <a class="grid-item" href="https://www.lansstyrelsen.se/jamtland/besoksmal/naturreservat/rogen.html" target="_blank">
+            <img src="images/Rogen.jpeg" alt="Fjällandskap i Rogen naturreservat Photo by Wikipedia">
+            <h3>Rogen</h3> 
+            <p>Vildmark med stenfält, sjöar och ett nästan arktiskt landskap.</p> 
+            </a>
+
+            <a class="grid-item" href="https://www.hallehunneberg.com" target="_blank">
+            <img src="images/Halle-hunneberg.jpeg" alt="Vattenfall på Halle- och Hunneberg naturreservat Photo by Halle- & Hunneberg">
+            <h3>Halle- & Hunneberg</h3>
+            <p>Platåberg med vandringsleder, utsiktsplatser och chans att se älg.</p> 
+            </a>
+        </div>
+      </section>
+    </main>
+<footer>
+  <div class="container">
+        <p>&copy; 2026 Vandringsportalen</p>
+    <div class="footer-links">
+        <a href="index.html">Hem</a>
+        <a href="utrustning.html">Utrustning</a>
+        <a href="vandringsplatser.html">Vandringsplatser</a>
+    </div>
+    <div class="footer-small">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+        <a href="mailto:info@vandringsportalen.se">Epost</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
