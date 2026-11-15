@@ -1,6 +1,7 @@
 # Vandringsportalen – Explore Sweden's Hiking Trails
 [🌐 View Live Website](https://sidneyroesch.github.io/vandringsportalen/)
 ![Vandringsportalen Homepage Preview](images/website-preview.png)
+
 A responsive hiking guide showcasing Sweden's beautiful hiking trails, national parks and outdoor destinations. Vandringsportalen aims to make it easier for outdoor enthusiasts to discover nature, explore destinations and find inspiration for their next adventure.
 
 **Project status:** In development
@@ -18,18 +19,19 @@ The website combines a minimalist design approach with practical functionality a
 - **Home page:** An introduction to Swedish hiking and outdoor experiences.
 - **Hiking trails:** Explore hiking routes and destinations across Sweden.
 - **National parks:** Discover Sweden's national parks and natural attractions.
+- **Equipment guide:** Information about essential hiking equipment.
 - **Responsive design:** Optimised layouts for desktop, tablet and mobile devices.
 - **Interactive elements:** JavaScript-powered features to improve the user experience.
 - **Navigation:** Clear and intuitive navigation between website sections.
 - **Contact page:** A way for visitors to get in touch.
 
-## Technologies
+## Technologies Used
 
-The project is being developed using:
-
-- HTML5 – Semantic structure and accessible content.
-- CSS3 – Styling, responsive layouts, Flexbox and CSS Grid.
-- JavaScript – Interactive functionality and dynamic user experiences.
+- **HTML5:** Semantic structure and accessible content.
+- **CSS3:** Styling, responsive layouts, Flexbox and CSS Grid.
+- **JavaScript:** Interactive functionality and dynamic user experiences.
+- **Git & GitHub:** Version control and project management.
+- **GitHub Pages:** Website hosting and deployment.
 
 ## Project Goals
 
@@ -42,9 +44,28 @@ The purpose of this project is to develop and demonstrate practical frontend dev
 - Organising and maintaining a structured frontend project.
 - Using Git and GitHub for version control and project management.
 
-## Live Website
+## Project Structure
 
-Coming soon.
+```text
+vandringsportalen/
+│
+├── images/
+├── index.html
+├── utrustning.html
+├── vandringsplatser.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## Future Improvements
+
+- Expand the hiking destination database.
+- Introduce interactive maps and location information.
+- Add more detailed hiking guides and trail information.
+- Improve accessibility and user experience.
+- Further develop JavaScript functionality.
+- Optimise performance across different devices.
 
 ## Developer
 
