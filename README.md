@@ -1,5 +1,6 @@
 # Vandringsportalen – Explore Sweden's Hiking Trails
-
+[🌐 View Live Website](https://sidneyroesch.github.io/vandringsportalen/)
+![Vandringsportalen Homepage Preview](images/website-preview.png)
 A responsive hiking guide showcasing Sweden's beautiful hiking trails, national parks and outdoor destinations. Vandringsportalen aims to make it easier for outdoor enthusiasts to discover nature, explore destinations and find inspiration for their next adventure.
 
 **Project status:** In development
