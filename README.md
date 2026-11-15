@@ -4,7 +4,7 @@ A responsive hiking guide showcasing Sweden's beautiful hiking trails, national 
 
 **Project status:** In development
 
-## 🌲 About the Project
+## About the Project
 
 Vandringsportalen is a frontend development project inspired by Sweden's diverse landscapes and outdoor lifestyle.
 
@@ -12,7 +12,7 @@ The goal is to create a clean, accessible and user-friendly platform where visit
 
 The website combines a minimalist design approach with practical functionality and responsive layouts.
 
-## ✨ Planned Features
+## Planned Features
 
 - **Home page:** An introduction to Swedish hiking and outdoor experiences.
 - **Hiking trails:** Explore hiking routes and destinations across Sweden.
@@ -22,7 +22,7 @@ The website combines a minimalist design approach with practical functionality a
 - **Navigation:** Clear and intuitive navigation between website sections.
 - **Contact page:** A way for visitors to get in touch.
 
-## 🛠️ Technologies
+## Technologies
 
 The project is being developed using:
 
@@ -30,7 +30,7 @@ The project is being developed using:
 - CSS3 – Styling, responsive layouts, Flexbox and CSS Grid.
 - JavaScript – Interactive functionality and dynamic user experiences.
 
-## 🎯 Project Goals
+## Project Goals
 
 The purpose of this project is to develop and demonstrate practical frontend development skills, including:
 
@@ -41,11 +41,11 @@ The purpose of this project is to develop and demonstrate practical frontend dev
 - Organising and maintaining a structured frontend project.
 - Using Git and GitHub for version control and project management.
 
-## 🚀 Live Website
+## Live Website
 
 Coming soon.
 
-## 👩‍💻 Developer
+## Developer
 
 **Sidney Roesch**
 
